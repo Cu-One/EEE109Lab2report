@@ -28,14 +28,13 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 在每一部分实验开始前，均按照给定电路图完成接线，并逐一检查元件参数，以减少接线错误带来的影响。同时也仔细核对了晶体管的引脚顺序，因为一旦集电极、基极和发射极接反，测得结果将失去意义。
 
 \subsection{Section 1: Bipolar Junction Transistor Characteristics}
-
 \begin{center}
 \includegraphics[width=0.50\textwidth]{Section1_Circuit_Diagram.png}
 
 图：BJT特性测量电路原理图
 \end{center}
 
-在 Section 1 中，首先测量了晶体管的基本输出特性。将 2N3904 按照正确的基极、集电极和发射极连接到 NI ELVIS III 的 BJT/IV 分析仪上，并在软件中将晶体管类型设为 NPN。随后将集电极-发射极电压从 0 到 3~V 进行扫描，同时将基极电流从 15~$\mu$A 开始，以 11~$\mu$A 为步长分成 5 个档位。通过这种方式，仪器直接给出了晶体管的一组特性曲线。后续分析中，主要利用这些曲线讨论晶体管在有源区、饱和区中的工作情况，以及基极电流增大时集电极电流的变化。实验实际操作中发现分析仪接触不良，将晶体管接入面包板并用杜邦线连接面包板和分析仪。
+在 Section 1 中，首先测量了晶体管的基本输出特性。将 2N3904 按照正确的基极、集电极和发射极连接到 NI ELVIS III 的 BJT/IV 分析仪上，并在软件中将晶体管类型设为 NPN。集电极电压扫描范围设为 0 到 3 V，基极电流以 15~$\mu$A 为步长分成 5 个档位。通过这种方式，仪器直接给出了晶体管的一组特性曲线。后续分析中，主要利用这些曲线讨论晶体管在有源区、饱和区中的工作情况，以及基极电流增大时集电极电流的变化。实验实际操作中发现分析仪接触不良，将晶体管接入面包板并用杜邦线连接面包板和分析仪。
 
 在此之后，又在手动搭建的偏置电路中对晶体管进行了进一步测试，以便在受控偏置条件下更直观地观察其工作行为。该电路搭建在原型板上，通过电位器调节基极偏置，选取了三个不同的偏置状态。对于每一个状态，都逐步升高集电极电源电压，并在每一步用数字万用表记录集电极-发射极电压和集电极电流。与仅使用自动分析仪相比，这一部分更能反映晶体管在实际电路中随着偏置变化而产生的响应，也便于将实测数据与预期的电流放大特性进行比较。
 
@@ -48,7 +47,6 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 \end{center}
 
 \subsection{Section 2: BJT as a Switch}
-
 \begin{center}
 \includegraphics[width=0.45\textwidth]{Section2_Circuit_Diagram.png}
 
@@ -60,7 +58,6 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 因此，这一部分主要测量的是两种工作状态下的输出电压以及集电极-发射极电压，并利用这些读数判断晶体管是否确实表现出电子开关的特性。这里没有简单重复实验讲义中的全部计算过程，而是将重点放在实测结果是否与实际电路中截止和饱和的预期行为一致。
 
 \subsection{Section 3: Common Emitter Amplifier}
-
 \begin{center}
 \includegraphics[width=0.50\textwidth]{Section3_Circuit_Diagram.png}
 
@@ -121,5 +118,41 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 图：Section 5 设计任务电路（工作状态）
 \end{minipage}
 \end{center}
+
+\section{Results and Discussion}
+
+\subsection{Section 3: Common Emitter Amplifier}
+
+\subsubsection{DC Bias Point}
+在 Section 3.1 中，首先检查了共射放大器的直流工作点。已知实测发射极电流为 $I_E=6.323~\mathrm{mA}$，由于基极电流过小，在实验中无法直接测得，因此可近似认为 $I_C \approx I_E$。根据电路参数 $R_E=560~\Omega$、$R_C=1~\mathrm{k}\Omega$ 以及 $V_{CC}=15~\mathrm{V}$，可以得到
+\[
+V_E=I_E R_E \approx 6.323~\mathrm{mA}\times 560~\Omega \approx 3.54~\mathrm{V},
+\]
+\[
+V_C=V_{CC}-I_C R_C \approx 15-6.323~\mathrm{mA}\times 1~\mathrm{k}\Omega \approx 8.68~\mathrm{V},
+\]
+\[
+V_{CE}=V_C-V_E \approx 5.14~\mathrm{V}.
+\]
+由此可见，晶体管在静态时工作在有源区，且集电极电压位于电源电压范围中间附近，说明该偏置点能够为后续交流放大提供较合适的输出摆幅。
+
+\subsubsection{Voltage Gain and Frequency Response}
+根据示波器截图中的测量结果，输入通道 Ch1 的峰峰值为 $201.9~\mathrm{mV}$，RMS 值为 $73.52~\mathrm{mV}$；输出通道 Ch2 的峰峰值为 $7.135~\mathrm{V}$，RMS 值为 $2.537~\mathrm{V}$。两路信号频率分别为 $100.1~\mathrm{Hz}$ 和 $99.94~\mathrm{Hz}$，说明放大器并没有改变信号频率，而主要体现为幅值放大和相位变化。
+
+由峰峰值计算电压增益可得
+\[
+A_v=\frac{V_{\mathrm{out}}}{V_{\mathrm{in}}}=\frac{7.135}{0.2019}\approx 35.34 .
+\]
+若换算为分贝表示，则
+\[
+20\log_{10}(35.34)\approx 30.96~\mathrm{dB}.
+\]
+为了验证结果的可靠性，再利用 RMS 数据计算，可得增益约为
+\[
+A_v=\frac{2.537}{0.07352}\approx 34.51 .
+\]
+两种计算结果非常接近，因此可以认为该共射极放大器在约 $100~\mathrm{Hz}$ 的测试条件下具有约 35 倍的电压增益，即约 $31~\mathrm{dB}$ 的中频增益。这一结果说明该电路已经实现了明显的电压放大功能，达到了本实验研究共射放大器增益特性的目的。
+
+从实验波形还可以观察到输出信号与输入信号反相，这与共射极放大器的理论特性一致。结合频率响应测试结果，可以进一步说明该放大器只会在一定频率范围内保持较稳定的增益，而在过低或过高频率下，耦合电容、旁路电容以及晶体管本身频率特性都会使增益下降。因此，Section 3 不仅验证了共射极放大器能够实现反相放大，也说明了实际放大电路的性能与频率密切相关。
 
 \end{document}
