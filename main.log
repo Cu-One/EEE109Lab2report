@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  13 MAY 2026 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  14 MAY 2026 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -508,84 +508,84 @@ File: UTF8.chr 2021/10/16 4.8.5
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -612,19 +612,33 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 9.
-
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 10
+.
  (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fd\c70rm.fd
 File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 9.
+quanjiao) on input line 10.
+
+Overfull \hbox (21.67798pt too wide) in paragraph at lines 10--11
+\C70/rm/m/n/10.53937/e5 } \C70/rm/m/n/10.53937/6d ì \C70/rm/m/n/10.53937/7b …\O
+T1/cmr/m/n/10.53937 JT\C70/rm/m/n/10.53937/6d ì \C70/rm/m/n/10.53937/5e ¢ \C70/
+rm/m/n/10.53937/65 Å \C70/rm/m/n/10.53937/6f ∂ \C70/rm/m/n/10.53937/04 C\C70/rm
+/m/n/10.53937/6a “ \C70/rm/m/n/10.53937/92 Ü \C70/rm/m/n/10.53937/50 ö \C70/rm/
+m/n/10.53937/75 Ñ \C70/rm/m/n/10.53937/69 ` \C70/rm/m/n/10.53937/5c Ñ\TS1/cmr/m
+/n/10.53937 ø\C70/rm/m/n/10.53937/6c 3 \C70/rm/m/n/10.53937/7e C\OT1/cmr/m/n/10
+.53937 NI ELVIS III\C70/rm/m/n/10.53937/9a û \C70/rm/m/n/10.53937/51 ≤ \C70/rm/
+m/n/10.53937/5f t \C70/rm/m/n/10.53937/95 ^^[ \C70/rm/m/n/10.53937/5c Ä \C70/rm
+/m/n/10.53937/7c ® \C70/rm/m/n/10.53937/93 Z\OT1/cmr/m/n/10.53937 ?N3904\C70/rm
+/m/n/10.53937/93 ≈
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 12.
+(Font)              <10.53937> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
+(Font)              <7> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 12.
+(Font)              <5> on input line 13.
 
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap
 -windows.tex
@@ -633,113 +647,395 @@ TeX and DVIPDFMx (CTEX)
 {C:/Users/jiang/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{UGBK.sfd}{Uni
 code.sfd}) [1
 
-]
-<Section1_Circuit_Diagram.png, id=133, 385.87018pt x 164.75839pt>
+] [2]
+<Section1_Circuit_Diagram.png, id=178, 385.87018pt x 164.75839pt>
 File: Section1_Circuit_Diagram.png Graphic file (type png)
 <use Section1_Circuit_Diagram.png>
-Package pdftex.def Info: Section1_Circuit_Diagram.png  used on input line 32.
+Package pdftex.def Info: Section1_Circuit_Diagram.png  used on input line 33.
 (pdftex.def)             Requested size: 172.5pt x 73.65538pt.
- [2 <./Section1_Circuit_Diagram.png>]
-<Section1_BJT_Characteristics.jpg, id=146, 1284.8pt x 1713.40125pt>
+
+c:/Users/jiang/Desktop/pyt/main.tex:38: Missing $ inserted.
+<inserted text> 
+                $
+l.38 ...òÊ´†Êµ£Êí∂ÓÖ∏Áª´ËØ≤ÁÄ∑ÁíÅÂè•Ë¥ü NPNÈäÜ?\mu
+                                                  $A Ê∂ìÁÉòÓÑûÈóÄÂûÆÂûéÈé¥?5...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[3 <./Section1_Circuit_Diagram.png>]
+<Section1_BJT_Characteristics.jpg, id=189, 1284.8pt x 1713.40125pt>
 File: Section1_BJT_Characteristics.jpg Graphic file (type jpg)
 <use Section1_BJT_Characteristics.jpg>
 Package pdftex.def Info: Section1_BJT_Characteristics.jpg  used on input line 4
-4.
+5.
 (pdftex.def)             Requested size: 172.5pt x 230.04425pt.
-<Section2_Circuit_Diagram.png, id=147, 166.04893pt x 199.17268pt>
+<Section2_Circuit_Diagram.png, id=190, 166.04893pt x 199.17268pt>
 File: Section2_Circuit_Diagram.png Graphic file (type png)
 <use Section2_Circuit_Diagram.png>
-Package pdftex.def Info: Section2_Circuit_Diagram.png  used on input line 52.
+Package pdftex.def Info: Section2_Circuit_Diagram.png  used on input line 53.
 (pdftex.def)             Requested size: 155.24895pt x 186.21942pt.
- [3 <./Section1_BJT_Characteristics.jpg>]
-<Section3_Circuit_Diagram.png, id=153, 334.24875pt x 176.80339pt>
+ [4 <./Section1_BJT_Characteristics.jpg>]
+<Section3_Circuit_Diagram.png, id=195, 334.24875pt x 176.80339pt>
 File: Section3_Circuit_Diagram.png Graphic file (type png)
 <use Section3_Circuit_Diagram.png>
-Package pdftex.def Info: Section3_Circuit_Diagram.png  used on input line 64.
+Package pdftex.def Info: Section3_Circuit_Diagram.png  used on input line 65.
 (pdftex.def)             Requested size: 172.5pt x 91.24765pt.
- [4 <./Section2_Circuit_Diagram.png> <./Section3_Circuit_Diagram.png>]
-<Section3_Common_Emitter_Amplifier.jpg, id=158, 1284.8pt x 1713.40125pt>
+
+[5 <./Section2_Circuit_Diagram.png>] [6 <./Section3_Circuit_Diagram.png>]
+<Section3_Common_Emitter_Amplifier.jpg, id=213, 1284.8pt x 1713.40125pt>
 File: Section3_Common_Emitter_Amplifier.jpg Graphic file (type jpg)
 <use Section3_Common_Emitter_Amplifier.jpg>
 Package pdftex.def Info: Section3_Common_Emitter_Amplifier.jpg  used on input l
-ine 80.
+ine 87.
 (pdftex.def)             Requested size: 172.5pt x 230.04425pt.
- [5]
-<Section4_Emitter_Follower_Diagram.png, id=165, 453.8384pt x 319.1925pt>
+
+[7 <./Section3_Common_Emitter_Amplifier.jpg>]
+<Section4_Emitter_Follower_Diagram.png, id=218, 453.8384pt x 319.1925pt>
 File: Section4_Emitter_Follower_Diagram.png Graphic file (type png)
 <use Section4_Emitter_Follower_Diagram.png>
 Package pdftex.def Info: Section4_Emitter_Follower_Diagram.png  used on input l
-ine 93.
+ine 100.
 (pdftex.def)             Requested size: 155.24895pt x 109.19125pt.
- [6 <./Section3_Common_Emitter_Amplifier.jpg>]
-<Section4_Emitter_Follower_Circuit.png, id=170, 461.15143pt x 319.62268pt>
+<Section4_Emitter_Follower_Circuit.png, id=219, 461.15143pt x 319.62268pt>
 File: Section4_Emitter_Follower_Circuit.png Graphic file (type png)
 <use Section4_Emitter_Follower_Circuit.png>
 Package pdftex.def Info: Section4_Emitter_Follower_Circuit.png  used on input l
-ine 101.
+ine 108.
 (pdftex.def)             Requested size: 155.24895pt x 107.60219pt.
-<Section5_Design_Task_Off.jpg, id=172, 1284.8pt x 1713.40125pt>
+ [8 <./Section4_Emitter_Follower_Diagram.png> <./Section4_Emitter_Follower_Circ
+uit.png>]
+<Section5_Design_Task_Off.jpg, id=223, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_Off.jpg Graphic file (type jpg)
 <use Section5_Design_Task_Off.jpg>
-Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 115.
+Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 122.
 (pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
-<Section5_Design_Task_On.jpg, id=173, 1284.8pt x 1713.40125pt>
+<Section5_Design_Task_On.jpg, id=224, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_On.jpg Graphic file (type jpg)
 <use Section5_Design_Task_On.jpg>
-Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 122.
+Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 129.
 (pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
- [7 <./Section4_Emitter_Follower_Diagram.png> <./Section4_Emitter_Follower_Circ
-uit.png>]
-[8 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg>] (main.aux)
+ [9 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg>] (main.aux
+)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6296 strings out of 467871
- 128662 string characters out of 5418376
- 544742 words of memory out of 5000000
- 34963 multiletter control sequences out of 15000+600000
- 651359 words of font info for 123 fonts, out of 8000000 for 9000
+ 6936 strings out of 467871
+ 140193 string characters out of 5418376
+ 545742 words of memory out of 5000000
+ 35560 multiletter control sequences out of 15000+600000
+ 657364 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,6n,92p,866b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,6n,92p,1245b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
 /Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun
-.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
-s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
-ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
-<C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sim
-sun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/F
-onts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/W
-indows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.t
-tc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/
-simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Window
-s/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C
-:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsu
-n.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fon
-ts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Win
-dows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
+.ttc><C:/Windows/Fonts/simsun.ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 44 --> 0xE62C --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 63 --> 0xE63F --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 68 --> 0xE644 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 230 --> 0xE6E6 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 231 --> 0xE6E7 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge6: wrong mapping: character 251 --> 0xE6FB --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
+ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge7: wrong mapping: character 71 --> 0xE747 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge7: wrong mapping: character 82 --> 0xE752 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge7: wrong mapping: character 102 --> 0xE766 --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+Windows/Fonts/simsun.ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 24 --> 0xE218 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 25 --> 0xE219 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 26 --> 0xE21A --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 27 --> 0xE21B --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 28 --> 0xE21C --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 29 --> 0xE21D --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 30 --> 0xE21E --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge2: wrong mapping: character 36 --> 0xE224 --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
+ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts
+/simsun.ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge4: wrong mapping: character 207 --> 0xE4CF --> .notdef
 ><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
 msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
 Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
 Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
 ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts
 /simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windo
-ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Users/jiang/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jia
-ng/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
-Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsl10.pfb>
-Output written on main.pdf (8 pages, 2162869 bytes).
+ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc> 
+<C:\Users\jiang\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi632\tcrm100
+0.pk><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Font
+s/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Wind
+ows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc>
+<C:/Windows/Fonts/simsun.ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 17 --> 0xE511 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 105 --> 0xE569 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 118 --> 0xE576 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 125 --> 0xE57D --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 131 --> 0xE583 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge5: wrong mapping: character 197 --> 0xE5C5 --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 3 --> 0xE003 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 66 --> 0xE042 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 67 --> 0xE043 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 68 --> 0xE044 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 69 --> 0xE045 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 70 --> 0xE046 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 72 --> 0xE048 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 163 --> 0xE0A3 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge0: wrong mapping: character 199 --> 0xE0C7 --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/si
+msun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/
+Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/
+Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
+ttc
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 0 --> 0xE100 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 1 --> 0xE101 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 3 --> 0xE103 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 27 --> 0xE11B --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 28 --> 0xE11C --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 29 --> 0xE11D --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 30 --> 0xE11E --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 94 --> 0xE15E --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 95 --> 0xE15F --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 96 --> 0xE160 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 97 --> 0xE161 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 98 --> 0xE162 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 104 --> 0xE168 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 120 --> 0xE178 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 123 --> 0xE17B --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 127 --> 0xE17F --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 135 --> 0xE187 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 137 --> 0xE189 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 144 --> 0xE190 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 145 --> 0xE191 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 149 --> 0xE195 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 186 --> 0xE1BA --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 187 --> 0xE1BB --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 188 --> 0xE1BC --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 189 --> 0xE1BD --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 190 --> 0xE1BE --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 191 --> 0xE1BF --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 192 --> 0xE1C0 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 198 --> 0xE1C6 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 218 --> 0xE1DA --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 228 --> 0xE1E4 --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 238 --> 0xE1EE --> .notdef
+
+
+pdfTeX warning: pdflatex.exe (file C:/Windows/Fonts/simsun.ttc): subfont unison
+ge1: wrong mapping: character 240 --> 0xE1F0 --> .notdef
+><C:/Windows/Fonts/simsun.ttc><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jiang/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jiang/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jiang/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jian
+g/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Us
+ers/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.p
+fb>
+Output written on main.pdf (9 pages, 2434128 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
+ 534 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 410 words of extra memory for PDF output out of 10000 (max. 10000000)
 
