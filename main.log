@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  14 MAY 2026 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  18 MAY 2026 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,7 +499,15 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen152
 \Gin@req@width=\dimen153
-) (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
+) (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks20
+\float@box=\box55
+\@float@everytoks=\toks21
+\@floatcapt=\box56
+)
+(C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 )
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/cjk/UTF8\UTF8.chr
@@ -508,99 +516,99 @@ File: UTF8.chr 2021/10/16 4.8.5
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
 
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
+\scratchcounter=\count295
 \scratchdimen=\dimen154
-\scratchbox=\box55
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count297
+\scratchbox=\box57
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count298
 \MPscratchDim=\dimen155
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks21
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks23
 )
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -612,20 +620,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for C70+rm on input line 10
-.
- (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fd\c70rm.fd
-File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
-)
-Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
-quanjiao) on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.53937> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 13.
-
 (C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/generic/ctex/zhmap\ctex-zhmap
 -windows.tex
 File: ctex-zhmap-windows.tex 2022/07/14 v2.5.10 Windows font map loader for pdf
@@ -634,76 +628,157 @@ TeX and DVIPDFMx (CTEX)
 code.sfd}) [1
 
 ]
-<Section1_Circuit_Diagram.png, id=132, 385.87018pt x 164.75839pt>
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 31
+.
+
+(C:\Users\jiang\AppData\Local\Programs\MiKTeX\tex/latex/ctex/fd\c70rm.fd
+File: c70rm.fd 2022/07/14 v2.5.10 Chinese font definition (CTEX)
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 41.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 41.
+
+[1]
+<Section1_Circuit_Diagram.png, id=141, 385.87018pt x 164.75839pt>
 File: Section1_Circuit_Diagram.png Graphic file (type png)
 <use Section1_Circuit_Diagram.png>
-Package pdftex.def Info: Section1_Circuit_Diagram.png  used on input line 32.
+Package pdftex.def Info: Section1_Circuit_Diagram.png  used on input line 60.
 (pdftex.def)             Requested size: 172.5pt x 73.65538pt.
- [2 <./Section1_Circuit_Diagram.png>]
-<Section1_BJT_Characteristics.jpg, id=145, 1284.8pt x 1713.40125pt>
+ [2]
+<Section1_BJT_Characteristics.jpg, id=153, 1284.8pt x 1713.40125pt>
 File: Section1_BJT_Characteristics.jpg Graphic file (type jpg)
 <use Section1_BJT_Characteristics.jpg>
-Package pdftex.def Info: Section1_BJT_Characteristics.jpg  used on input line 4
+Package pdftex.def Info: Section1_BJT_Characteristics.jpg  used on input line 7
 4.
-(pdftex.def)             Requested size: 172.5pt x 230.04425pt.
-<Section2_Circuit_Diagram.png, id=146, 166.04893pt x 199.17268pt>
+(pdftex.def)             Requested size: 144.89937pt x 193.23299pt.
+ [3 <./Section1_Circuit_Diagram.png>]
+<Section2_Circuit_Diagram.png, id=158, 166.04893pt x 199.17268pt>
 File: Section2_Circuit_Diagram.png Graphic file (type png)
 <use Section2_Circuit_Diagram.png>
-Package pdftex.def Info: Section2_Circuit_Diagram.png  used on input line 51.
-(pdftex.def)             Requested size: 155.24895pt x 186.21942pt.
- [3 <./Section1_BJT_Characteristics.jpg>]
-<Section3_Circuit_Diagram.png, id=151, 334.24875pt x 176.80339pt>
+Package pdftex.def Info: Section2_Circuit_Diagram.png  used on input line 81.
+(pdftex.def)             Requested size: 131.10168pt x 157.25351pt.
+<Section3_Circuit_Diagram.png, id=159, 334.24875pt x 176.80339pt>
 File: Section3_Circuit_Diagram.png Graphic file (type png)
 <use Section3_Circuit_Diagram.png>
-Package pdftex.def Info: Section3_Circuit_Diagram.png  used on input line 62.
+Package pdftex.def Info: Section3_Circuit_Diagram.png  used on input line 90.
 (pdftex.def)             Requested size: 172.5pt x 91.24765pt.
- [4 <./Section2_Circuit_Diagram.png> <./Section3_Circuit_Diagram.png>]
-<Section3_Common_Emitter_Amplifier.jpg, id=156, 1284.8pt x 1713.40125pt>
+ [4 <./Section1_BJT_Characteristics.jpg> <./Section2_Circuit_Diagram.png>]
+<Section3_Common_Emitter_Amplifier.jpg, id=165, 1284.8pt x 1713.40125pt>
 File: Section3_Common_Emitter_Amplifier.jpg Graphic file (type jpg)
 <use Section3_Common_Emitter_Amplifier.jpg>
 Package pdftex.def Info: Section3_Common_Emitter_Amplifier.jpg  used on input l
-ine 76.
+ine 104.
 (pdftex.def)             Requested size: 172.5pt x 230.04425pt.
- [5]
-<Section4_Emitter_Follower_Diagram.png, id=163, 453.8384pt x 319.1925pt>
+ [5 <./Section3_Circuit_Diagram.png>]
+<Section4_Emitter_Follower_Diagram.png, id=171, 453.8384pt x 319.1925pt>
 File: Section4_Emitter_Follower_Diagram.png Graphic file (type png)
 <use Section4_Emitter_Follower_Diagram.png>
 Package pdftex.def Info: Section4_Emitter_Follower_Diagram.png  used on input l
-ine 89.
+ine 117.
 (pdftex.def)             Requested size: 155.24895pt x 109.19125pt.
- [6 <./Section3_Common_Emitter_Amplifier.jpg>]
-<Section4_Emitter_Follower_Circuit.png, id=168, 461.15143pt x 319.62268pt>
-File: Section4_Emitter_Follower_Circuit.png Graphic file (type png)
-<use Section4_Emitter_Follower_Circuit.png>
-Package pdftex.def Info: Section4_Emitter_Follower_Circuit.png  used on input l
-ine 96.
-(pdftex.def)             Requested size: 155.24895pt x 107.60219pt.
-<Section5_Design_Task_Off.jpg, id=170, 1284.8pt x 1713.40125pt>
+
+[6 <./Section3_Common_Emitter_Amplifier.jpg>]
+<Section5_Circuit_Diagram.jpg, id=177, 2051.665pt x 1078.0275pt>
+File: Section5_Circuit_Diagram.jpg Graphic file (type jpg)
+<use Section5_Circuit_Diagram.jpg>
+Package pdftex.def Info: Section5_Circuit_Diagram.jpg  used on input line 130.
+(pdftex.def)             Requested size: 269.09958pt x 141.38219pt.
+<Section1_1_Characteristics_Waveform.jpg, id=178, 1713.40125pt x 1284.8pt>
+File: Section1_1_Characteristics_Waveform.jpg Graphic file (type jpg)
+<use Section1_1_Characteristics_Waveform.jpg>
+Package pdftex.def Info: Section1_1_Characteristics_Waveform.jpg  used on input
+ line 142.
+(pdftex.def)             Requested size: 269.09958pt x 201.76894pt.
+ [7 <./Section4_Emitter_Follower_Diagram.png> <./Section5_Circuit_Diagram.jpg>]
+
+Overfull \hbox (79.71585pt too wide) in paragraph at lines 154--173
+ [][] 
+ []
+
+[8 <./Section1_1_Characteristics_Waveform.jpg>] [9]
+<Section2_1_Characteristics_Waveform.jpg, id=193, 1713.40125pt x 1284.8pt>
+File: Section2_1_Characteristics_Waveform.jpg Graphic file (type jpg)
+<use Section2_1_Characteristics_Waveform.jpg>
+Package pdftex.def Info: Section2_1_Characteristics_Waveform.jpg  used on input
+ line 249.
+(pdftex.def)             Requested size: 269.09958pt x 201.76894pt.
+ [10]
+<Section2_2_Characteristics_Waveform.jpg, id=198, 1713.40125pt x 1284.8pt>
+File: Section2_2_Characteristics_Waveform.jpg Graphic file (type jpg)
+<use Section2_2_Characteristics_Waveform.jpg>
+Package pdftex.def Info: Section2_2_Characteristics_Waveform.jpg  used on input
+ line 287.
+(pdftex.def)             Requested size: 234.59747pt x 175.91068pt.
+ [11 <./Section2_1_Characteristics_Waveform.jpg>]
+Overfull \hbox (5.69164pt too wide) in paragraph at lines 292--293
+[]\C70/rm/m/n/10.53937/68 9 \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/79 :
+ \C70/rm/m/n/10.53937/6c â \C70/rm/m/n/10.53937/56 h \C70/rm/m/n/10.53937/65 p 
+\C70/rm/m/n/10.53937/63 n|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/8f 
+“ \C70/rm/m/n/10.53937/51 e \C70/rm/m/n/10.53937/5c ð ð \C70/rm/m/n/10.53937/50
+ < \C70/rm/m/n/10.53937/7e ¦ \C70/rm/m/n/10.53937/4e : $\OT1/cmr/m/n/10.53937 2
+01\OML/cmm/m/it/10.53937 :\OT1/cmr/m/n/10.53937 9 []$|\C70/rm/m/n/10.53937/ff ^
+^L| \C70/rm/m/n/10.53937/8f “ \C70/rm/m/n/10.53937/51 ú \C70/rm/m/n/10.53937/5c
+ ð ð \C70/rm/m/n/10.53937/50 < \C70/rm/m/n/10.53937/7e ¦ \C70/rm/m/n/10.53937/4
+e : $\OT1/cmr/m/n/10.53937 7\OML/cmm/m/it/10.53937 :\OT1/cmr/m/n/10.53937 135 V
+$|\C70/rm/m/n/10.53937/ff ^^L|
+ []
+
+<Section4_Emitter_Follower_Waveform.png, id=204, 649.56964pt x 443.08392pt>
+File: Section4_Emitter_Follower_Waveform.png Graphic file (type png)
+<use Section4_Emitter_Follower_Waveform.png>
+Package pdftex.def Info: Section4_Emitter_Follower_Waveform.png  used on input 
+line 310.
+(pdftex.def)             Requested size: 282.90253pt x 192.96982pt.
+[12 <./Section2_2_Characteristics_Waveform.jpg>]
+Overfull \hbox (41.11218pt too wide) in paragraph at lines 319--332
+ [][] 
+ []
+
+[13 <./Section4_Emitter_Follower_Waveform.png>]
+<Section5_Design_Task_Off.jpg, id=214, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_Off.jpg Graphic file (type jpg)
 <use Section5_Design_Task_Off.jpg>
-Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 109.
-(pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
-<Section5_Design_Task_On.jpg, id=171, 1284.8pt x 1713.40125pt>
+Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 346.
+(pdftex.def)             Requested size: 162.15042pt x 216.24004pt.
+<Section5_Design_Task_On.jpg, id=215, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_On.jpg Graphic file (type jpg)
 <use Section5_Design_Task_On.jpg>
-Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 116.
-(pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
- [7 <./Section4_Emitter_Follower_Diagram.png> <./Section4_Emitter_Follower_Circ
-uit.png>]
-[8 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg>] (main.aux)
+Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 353.
+(pdftex.def)             Requested size: 162.15042pt x 216.24004pt.
+ [14 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg>]
+<Section5_Characteristics_Waveform_Task_Off.jpg, id=220, 1927.2pt x 1084.05pt>
+File: Section5_Characteristics_Waveform_Task_Off.jpg Graphic file (type jpg)
+<use Section5_Characteristics_Waveform_Task_Off.jpg>
+Package pdftex.def Info: Section5_Characteristics_Waveform_Task_Off.jpg  used o
+n input line 364.
+(pdftex.def)             Requested size: 303.60168pt x 170.77185pt.
+<Section5_Characteristics_Waveform_Task_On.jpg, id=221, 1927.2pt x 1084.05pt>
+File: Section5_Characteristics_Waveform_Task_On.jpg Graphic file (type jpg)
+<use Section5_Characteristics_Waveform_Task_On.jpg>
+Package pdftex.def Info: Section5_Characteristics_Waveform_Task_On.jpg  used on
+ input line 373.
+(pdftex.def)             Requested size: 303.60168pt x 170.77185pt.
+ [15 <./Section5_Characteristics_Waveform_Task_Off.jpg>] [16 <./Section5_Charac
+teristics_Waveform_Task_On.jpg>] [17]
+(main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6287 strings out of 467871
- 128512 string characters out of 5418376
- 544742 words of memory out of 5000000
- 34956 multiletter control sequences out of 15000+600000
- 651089 words of font info for 122 fonts, out of 8000000 for 9000
+ 6609 strings out of 467871
+ 135163 string characters out of 5418376
+ 602742 words of memory out of 5000000
+ 35203 multiletter control sequences out of 15000+600000
+ 669312 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,6n,92p,866b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,10n,92p,879b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
@@ -729,17 +804,26 @@ Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
 ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts
 /simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windo
 ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jiang/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jiang/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jiang/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jiang/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
+un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
+nts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Users/jiang/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jiang/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jiang/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
+s/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr9.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/jiang/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jiang/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><C:/Users/jian
+g/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb
 >
-Output written on main.pdf (8 pages, 2158157 bytes).
+Output written on main.pdf (18 pages, 3623811 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 508 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 322 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 368 words of extra memory for PDF output out of 10000 (max. 10000000)
 

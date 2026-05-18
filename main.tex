@@ -1,8 +1,36 @@
-% Date: 2026-05-13
+﻿% Date: 2026-05-13
 \documentclass{ctexart}
 \usepackage{graphicx}
+\usepackage{float}
 
 \begin{document}
+
+\begin{titlepage}
+\thispagestyle{empty}
+\vspace*{0.26\textheight}
+
+\begin{center}
+{\LARGE\bfseries EEE109 Lab 2 -- BJT and Amplifiers}
+\end{center}
+
+\vspace{0.28\textheight}
+
+\noindent\hspace*{0.12\textwidth}{\large\bfseries Student Name:} {\large Yutong Jiang}
+
+\vspace{1.2cm}
+
+\noindent\hspace*{0.12\textwidth}{\large\bfseries Student ID:} {\large 2470832}
+
+\vspace{1.2cm}
+
+\noindent\hspace*{0.12\textwidth}{\large\bfseries Submission date:} {\large 15/05/2026}
+
+\vfill
+\end{titlepage}
+
+\begin{abstract}
+本实验基于 NI ELVIS III 平台与 2N3904 双极型晶体管，系统研究了 BJT 的基本特性及其在开关电路与放大电路中的应用。实验目标包括观察晶体管输出特性，分析其截止、饱和与有源区行为，测量共射极放大器的静态工作点、电压增益与频率响应，验证射极跟随器的电压跟随和电流增益特性，并完成综合电路设计任务。实验过程中完成了面包板电路搭建、直流偏置测量、示波器波形观测以及理论值与实测值比较。结果表明，BJT 的实验现象与理论分析总体一致：共射极电路具有明显电压增益且输出反相，射极跟随器电压增益接近 1 且具备较好的电流驱动能力，综合设计任务也表现出清晰的状态切换与输出差异。
+\end{abstract}
 
 \section{Introduction}
 
@@ -18,7 +46,7 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 在第1部分中，随着集电极电压增加，BJT的集电极电流应在有源区趋于平稳，不同基极电流下的输出曲线应呈现出刻度式的分布，反映出$\beta$的变化。在第2部分中，晶体管作为开关时应显示出截断和饱和两种明显状态：截断时集电极电流近乎为零，饱和时$V_{CE}$显著降低。在第3部分中，共射放大器应给出反相输出，在中频范围内表现出稳定的电压增益，而在低频端由于耦合或旁路电容的影响会出现增益下降。在第4部分中，射极跟随器应实现输出紧随输入、幅度接近1且输出阻抗较低的特性。在第5部分的设计任务中，预期通过合理选择偏置和元件，得到符合规格的直流工作点和交流响应良好的电路。
 
 \subsection{The Organization of the Report}
-本报告首先以Abstract开头，总结实验目的、方法、结果和结论。随后Introduction部分介绍实验背景、目的、理论背景、电路预期行为以及报告组织。Experimental Setup and Procedures节描述实验设置、仪器和测量步骤。Results and Analysis节通过表格和图表展示并分析结果，与理论比较并讨论误差。最后Conclusion节总结实验确认的内容、意义和可靠性，References节列出引用资料。
+本报告首先以Abstract开头，总结实验目的、方法、结果和结论。随后Introduction部分介绍实验背景、目的、理论背景、电路预期行为以及报告组织。Experimental Setup and Procedures节描述实验设置、仪器和测量步骤。Results and Analysis节通过表格和图表展示并分析结果，与理论比较并讨论误差。最后Conclusion节总结实验确认的内容、意义和可靠性。
 
 \section{Experimental Setup and Procedures}
 
@@ -34,28 +62,28 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 图：BJT特性测量电路原理图
 \end{center}
 
-在 Section 1 中，首先测量了晶体管的基本输出特性。将 2N3904 按照正确的基极、集电极和发射极连接到 NI ELVIS III 的 BJT/IV 分析仪上，并在软件中将晶体管类型设为 NPN。集电极电压扫描范围设为 0 到 3 V，基极电流以 15~$\mu$A 为步长分成 5 个档位。通过这种方式，仪器直接给出了晶体管的一组特性曲线。后续分析中，主要利用这些曲线讨论晶体管在有源区、饱和区中的工作情况，以及基极电流增大时集电极电流的变化。实验实际操作中发现分析仪接触不良，将晶体管接入面包板并用杜邦线连接面包板和分析仪。
+\subsubsection{1.1 BJT Behavior}
+在 Section 1.1 中，先使用 NI ELVIS III 的 IV Analyzer 观察 2N3904 的基本输出特性。晶体管类型设为 NPN，collector resistance 选择 low，集电极电压扫描范围设置为 $0$ 到 $3~\mathrm{V}$，步长为 $0.1~\mathrm{V}$，电流上限为 $30~\mathrm{mA}$。基极电流扫描设置为起始 $15~\mu\mathrm{A}$、步长 $11~\mu\mathrm{A}$、共 5 条曲线。完成设置后运行 IV Analyzer，并将得到的输出特性图保存用于报告分析。
 
-在此之后，又在手动搭建的偏置电路中对晶体管进行了进一步测试，以便在受控偏置条件下更直观地观察其工作行为。该电路搭建在原型板上，通过电位器调节基极偏置，选取了三个不同的偏置状态。对于每一个状态，都逐步升高集电极电源电压，并在每一步用数字万用表记录集电极-发射极电压和集电极电流。与仅使用自动分析仪相比，这一部分更能反映晶体管在实际电路中随着偏置变化而产生的响应，也便于将实测数据与预期的电流放大特性进行比较。
+\subsubsection{1.2 BJT Measurements in the Active Region}
+在 Section 1.2 中，按照讲义给出的电路在面包板上手动搭建有源区测试电路，并使用数字万用表和可调直流电源进行测量。实验中分别将基极电压设为 $2.38~\mathrm{V}$、$4.08~\mathrm{V}$ 和 $5.76~\mathrm{V}$，对应约 $I_B=50~\mu\mathrm{A}$、$100~\mu\mathrm{A}$ 和 $150~\mu\mathrm{A}$。对于每一种基极偏置，逐步调节电位器，使 $V_{CE}$ 取 $6$ 到 $12~\mathrm{V}$，并记录对应的集电极电流 $I_C$，随后根据表中数据绘制 $I_C$ 与 $V_{CE}$ 的关系图。
 
-在电路搭建过程中发现，该电路需要同时由面包板电源和函数发生器供电，并且多个接地点须统一接地。初期各接地点独立连接时，数字万用表的测量读数没有明显变化。将面包板的地线、电路接地点和函数发生器的地线统一连接后，电压表恢复正常工作。这充分说明在多电源协同工作的电路中，建立可靠的公共接地平面是保证测量精度和数据可靠性的关键。
+在实际搭建过程中，需要将面包板电源地、测量地和信号地统一连接，否则读数会不稳定。完成接线检查后，再进行每组数据的读取和绘图。
 
 \begin{center}
-\includegraphics[width=0.50\textwidth]{Section1_BJT_Characteristics.jpg}
+\includegraphics[width=0.42\textwidth]{Section1_BJT_Characteristics.jpg}
 
 图：Section 1 晶体管特性测量电路实际搭建
 \end{center}
 
 \subsection{Section 2: BJT as a Switch}
 \begin{center}
-\includegraphics[width=0.45\textwidth]{Section2_Circuit_Diagram.png}
+\includegraphics[width=0.38\textwidth]{Section2_Circuit_Diagram.png}
 
 图：晶体管开关电路原理图
 \end{center}
 
-在 Section 2 中，晶体管不再作为放大器使用，而是作为开关器件使用。电路按照图中所示搭建，晶体管采用低端开关连接方式。确认接线无误后，调节输入信号，使其在低电平和能够提供足够基极电流的较高电平之间变化。当输入为低电平时，晶体管应处于截止状态，因此集电极电流应接近于零，输出电压应接近电源电压；当输入足够高时，晶体管应进入饱和区，此时集电极-发射极电压会下降到较小的数值。
-
-因此，这一部分主要测量的是两种工作状态下的输出电压以及集电极-发射极电压，并利用这些读数判断晶体管是否确实表现出电子开关的特性。这里没有简单重复实验讲义中的全部计算过程，而是将重点放在实测结果是否与实际电路中截止和饱和的预期行为一致。
+本部分依据给定电路图和参数进行计算，不再重新搭建和测量。需要求出截止与饱和状态下的 $V_{CE}$，以及饱和时的 $V_{RC}$ 和 $I_C$。计算条件取 $V_{CC}=15~\mathrm{V}$、LED 压降 $1.8~\mathrm{V}$、$V_{CE(\mathrm{sat})}=0.1~\mathrm{V}$。
 
 \subsection{Section 3: Common Emitter Amplifier}
 \begin{center}
@@ -80,7 +108,7 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 
 \subsection{Section 4: Emitter Follower Amplifier}
 
-\subsubsection{Circuit Model}
+
 在 Section 4 中，先结合电路模型分析了射极跟随器的基本工作原理，随后在原型板上用晶体管、偏置电阻以及相应的输入输出连接搭建了实际电路。与前一节的共射放大器相比，这一部分的重点不是获得较大的电压增益，而是观察该电路如何跟随输入电压变化，并作为缓冲级使用。
 
 电路连接完成后，首先测量了基极和发射极的直流电压，以确认发射极电压是否能够跟随基极电压变化，并保持大约一个基极-发射极结压降的差值。在确认直流工作情况正常后，再在输入端加入正弦信号，并从发射极取出输出信号，用示波器比较输入与输出波形。重点观察的现象包括输出不反相、电压增益接近 1，以及与共射极电路相比其驱动负载能力更强。
@@ -91,68 +119,269 @@ NPN型双极结晶体管由基极、发射极和集电极组成。在有源区�
 图：Section 4.1 射极跟随器电路原理图
 \end{center}
 
-\subsubsection{Practical Circuit}
-\begin{center}
-\includegraphics[width=0.45\textwidth]{Section4_Emitter_Follower_Circuit.png}
 
-图：Section 4.2 射极跟随器实验电路图
-\end{center}
+
 
 \subsection{Section 5: Comprehensive Design Task}
-在 Section 5 中，最终设计任务要求将前面几个部分中涉及的思路综合起来，构成一个完整电路。在正式搭建整个电路之前，先根据设计计算结果选定所需的元件参数。实际搭建时并没有一次性将全部部分同时上电，而是按照模块逐步完成，这样更容易在过程中发现错误，因为每完成一个部分都可以先进行检查，再继续连接后续部分。
+在 Section 5 中，综合设计任务将前面几部分中的放大、耦合、偏置与驱动思路组合到同一个电路中。实验重点不再是单独观察某一级的增益，而是检查整个系统在不同状态下是否能够正常工作，并输出明显不同的结果。
 
-当整个电路接线完成后，首先使用数字万用表测量关键节点的直流电压，以确认各级电路是否工作在预期范围内，之后才进行进一步测试。在满足题目要求的条件下，再利用示波器和数字万用表测量输出波形和输出电压。除记录测量数据外，还对电路在不工作和工作状态下分别拍摄了照片，以便更清楚地展示实际搭建结果和最终工作情况。
-
+\subsubsection{Designed Schematic}
 \begin{center}
-\begin{minipage}{0.45\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Section5_Design_Task_Off.jpg}
+\includegraphics[width=0.78\textwidth]{Section5_Circuit_Diagram.jpg}
 
-图：Section 5 设计任务电路（不工作状态）
-\end{minipage}
-\hfill
-\begin{minipage}{0.45\textwidth}
-\centering
-\includegraphics[width=\textwidth]{Section5_Design_Task_On.jpg}
-
-图：Section 5 设计任务电路（工作状态）
-\end{minipage}
+图：Section 5 综合设计任务电路原理图
 \end{center}
+
+该设计可分为三个部分。第一部分为前级共射极放大器，由输入耦合电容、分压偏置电阻、集电极电阻、发射极电阻及旁路电容组成，用于对输入小信号进行放大。第二部分为级间耦合与控制网络，通过耦合电容将前级交流信号送入后级，并利用偏置电阻和二极管建立合适的导通条件。第三部分为后级驱动与负载部分，由后级晶体管和负载支路组成，用于在满足触发条件时产生明显输出。
 
 \section{Results and Discussion}
 
+\subsection{Section 1: Bipolar Junction Transistor Characteristics}
+\subsubsection{1.1 BJT Behavior}
+\begin{center}
+\includegraphics[width=0.78\textwidth]{Section1_1_Characteristics_Waveform.jpg}
+
+图：Section 1.1 BJT 输出特性测量结果
+\end{center}
+
+由 IV Analyzer 生成的输出特性图可见，随着基极电流增加，各条 $I_C$-$V_{CE}$ 曲线整体上移，说明更大的基极驱动会带来更大的集电极电流。在较低的 $V_{CE}$ 下，曲线先快速上升；当 $V_{CE}$ 继续增大后，曲线逐渐变平，表明晶体管进入有源区后，集电极电流主要由基极电流控制，而不再明显依赖 $V_{CE}$。这一结果与 BJT 的理论输出特性一致。
+
+\subsubsection{1.2 BJT Measurements in the Active Region}
+
+\begin{table}[H]
+\centering
+\caption{Table 1-3 手动测量的有源区数据}
+\begin{tabular}{|c|c|c|c|}
+\hline
+$V_{CE}$ (V) & $I_C$ at $V_B=2.38~\mathrm{V}$ (mA) & $I_C$ at $V_B=4.08~\mathrm{V}$ (mA) & $I_C$ at $V_B=5.76~\mathrm{V}$ (mA) \\
+\hline
+6 & 18.6 & 39.5 & 53.8 \\
+\hline
+7 & 19.1 & 39.8 & 54.6 \\
+\hline
+8 & 19.3 & 40.7 & 57.3 \\
+\hline
+9 & 19.8 & 42.9 & N/A \\
+\hline
+10 & 20.0 & 43.8 & N/A \\
+\hline
+11 & 21.9 & N/A & N/A \\
+\hline
+12 & 22.3 & N/A & N/A \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{center}
+\scalebox{0.9}{
+\setlength{\unitlength}{0.9cm}
+\begin{picture}(14,9)
+\put(1,1){\vector(1,0){11}}
+\put(1,1){\vector(0,1){7}}
+\put(12.3,0.5){$V_{CE}/\mathrm{V}$}
+\put(0.2,8.2){$I_C/\mathrm{mA}$}
+\put(1.9,0.6){6}
+\put(3.3,0.6){7}
+\put(4.7,0.6){8}
+\put(6.1,0.6){9}
+\put(7.5,0.6){10}
+\put(8.9,0.6){11}
+\put(10.3,0.6){12}
+\put(0.4,3.2){20}
+\put(0.4,5.9){40}
+\put(0.4,8.0){60}
+\put(2.0,3.1){\circle*{0.12}}
+\put(3.4,3.16){\circle*{0.12}}
+\put(4.8,3.19){\circle*{0.12}}
+\put(6.2,3.26){\circle*{0.12}}
+\put(7.6,3.29){\circle*{0.12}}
+\put(9.0,3.56){\circle*{0.12}}
+\put(10.4,3.61){\circle*{0.12}}
+\put(2.0,5.85){\circle*{0.12}}
+\put(3.4,5.89){\circle*{0.12}}
+\put(4.8,6.01){\circle*{0.12}}
+\put(6.2,6.31){\circle*{0.12}}
+\put(7.6,6.43){\circle*{0.12}}
+\put(2.0,7.74){\circle*{0.12}}
+\put(3.4,7.85){\circle*{0.12}}
+\put(4.8,8.21){\circle*{0.12}}
+\qbezier(2.0,3.1)(4.8,3.15)(10.4,3.61)
+\qbezier(2.0,5.85)(4.8,5.95)(7.6,6.43)
+\qbezier(2.0,7.74)(3.4,7.82)(4.8,8.21)
+\put(7.0,7.4){$V_B=5.76~\mathrm{V}$}
+\put(7.0,6.2){$V_B=4.08~\mathrm{V}$}
+\put(7.0,3.9){$V_B=2.38~\mathrm{V}$}
+\end{picture}}
+
+图：根据 Table 1-3 绘制的 $I_C$-$V_{CE}$ 关系图
+\end{center}
+
+在手动测量部分，分别取 $V_B=2.38~\mathrm{V}$、$4.08~\mathrm{V}$ 和 $5.76~\mathrm{V}$，并在每组条件下记录 $V_{CE}=6$ 到 $12~\mathrm{V}$ 时的 $I_C$。根据 Table 1-3 的数据和所绘制的图像可以看出，在同一组基极偏置下，$I_C$ 随 $V_{CE}$ 的变化并不大，说明晶体管在这些测量点上基本工作在有源区；而当基极偏置从 $2.38~\mathrm{V}$ 增加到 $5.76~\mathrm{V}$ 时，整条曲线明显上移，说明集电极电流随基极电流增大而增大。
+
+从整体趋势来看，$\beta$ 不是在所有测量点上都完全恒定，但在同一工作区间内变化不算很大。造成偏差的原因可能包括晶体管本身参数分散、手动调节电位器带来的读数误差，以及面包板接触和仪器分辨率的影响。总体而言，Section 1 的自动测试与手动测试结果相互印证，较好地说明了 BJT 在有源区中的工作特性。
+
+\subsection{Section 2: BJT as a Switch}
+\begin{table}[H]
+\centering
+\caption{Section 2-1 晶体管开关计算结果}
+\begin{tabular}{|c|c|}
+\hline
+Data & Calculated Values \\
+\hline
+$V_{CE}$ (cut-off) & $15.0~\mathrm{V}$ \\
+\hline
+$V_{CE}$ (saturation) & $0.1~\mathrm{V}$ \\
+\hline
+$V_{RC}$ (saturation) & $13.1~\mathrm{V}$ \\
+\hline
+$I_C$ (saturation) & $13.1~\mathrm{mA}$ \\
+\hline
+\end{tabular}
+\end{table}
+
+由表中结果可知，截止时晶体管基本不导通，因此 $V_{CE}$ 接近电源电压；而在饱和状态下，$V_{CE}$ 降至约 $0.1~\mathrm{V}$，同时集电极电流约为 $13.1~\mathrm{mA}$。这说明该电路能够表现出明显的开关特性。
+
 \subsection{Section 3: Common Emitter Amplifier}
 
-\subsubsection{DC Bias Point}
-在 Section 3.1 中，首先检查了共射放大器的直流工作点。已知实测发射极电流为 $I_E=6.323~\mathrm{mA}$，由于基极电流过小，在实验中无法直接测得，因此可近似认为 $I_C \approx I_E$。根据电路参数 $R_E=560~\Omega$、$R_C=1~\mathrm{k}\Omega$ 以及 $V_{CC}=15~\mathrm{V}$，可以得到
-\[
-V_E=I_E R_E \approx 6.323~\mathrm{mA}\times 560~\Omega \approx 3.54~\mathrm{V},
-\]
-\[
-V_C=V_{CC}-I_C R_C \approx 15-6.323~\mathrm{mA}\times 1~\mathrm{k}\Omega \approx 8.68~\mathrm{V},
-\]
-\[
-V_{CE}=V_C-V_E \approx 5.14~\mathrm{V}.
-\]
-由此可见，晶体管在静态时工作在有源区，且集电极电压位于电源电压范围中间附近，说明该偏置点能够为后续交流放大提供较合适的输出摆幅。
+\subsubsection{Transistor Amplifier}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{Section2_1_Characteristics_Waveform.jpg}
+\caption{Section 3.1 共射极放大器输入与输出波形}
+\label{fig:sec3wave}
+\end{figure}
 
-\subsubsection{Voltage Gain and Frequency Response}
-根据示波器截图中的测量结果，输入通道 Ch1 的峰峰值为 $201.9~\mathrm{mV}$，RMS 值为 $73.52~\mathrm{mV}$；输出通道 Ch2 的峰峰值为 $7.135~\mathrm{V}$，RMS 值为 $2.537~\mathrm{V}$。两路信号频率分别为 $100.1~\mathrm{Hz}$ 和 $99.94~\mathrm{Hz}$，说明放大器并没有改变信号频率，而主要体现为幅值放大和相位变化。
+\begin{table}[H]
+\centering
+\caption{Section 3-2 直流偏置结果}
+\begin{tabular}{|c|c|c|}
+\hline
+Data & Calculated Value & Measured Value \\
+\hline
+$I_B$ & $64.2~\mu\mathrm{A}$ & -- \\
+\hline
+$I_E$ & $6.49~\mathrm{mA}$ & $6.323~\mathrm{mA}$ \\
+\hline
+\end{tabular}
+\end{table}
 
-由峰峰值计算电压增益可得
+\begin{table}[H]
+\centering
+\caption{Section 3-3 晶体管参数比较}
+\begin{tabular}{|c|c|c|}
+\hline
+Data & Given Value & Measured/Calculated Value \\
+\hline
+$\beta$ & $100$ & $97.49$ \\
+\hline
+$V_{BE}$ & $0.7~\mathrm{V}$ & $0.6713~\mathrm{V}$ \\
+\hline
+\end{tabular}
+\end{table}
+
+由 Table 3-2 和 Table 3-3 可知，该共射极放大器的理论值和实验结果较为接近。由于基极电流较小，实验中不便直接测量，因此这里利用 $I_B$ 的计算值和 $I_E$ 的测量值估算得到 $\beta \approx 97.49$。该结果与标称值 100 接近，说明偏置设计是合理的。
+
+\subsubsection{Frequency Response of the Amplifier}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.68\textwidth]{Section2_2_Characteristics_Waveform.jpg}
+\caption{Section 3.2 共射极放大器频率响应测量结果}
+\label{fig:sec3bode}
+\end{figure}
+
+根据示波器数据，输入峰峰值约为 $201.9~\mathrm{mV}$，输出峰峰值约为 $7.135~\mathrm{V}$，因此电压增益为
 \[
-A_v=\frac{V_{\mathrm{out}}}{V_{\mathrm{in}}}=\frac{7.135}{0.2019}\approx 35.34 .
+A_v=\frac{7.135}{0.2019}\approx 35.34.
 \]
-若换算为分贝表示，则
+换算为分贝可得
 \[
 20\log_{10}(35.34)\approx 30.96~\mathrm{dB}.
 \]
-为了验证结果的可靠性，再利用 RMS 数据计算，可得增益约为
-\[
-A_v=\frac{2.537}{0.07352}\approx 34.51 .
-\]
-两种计算结果非常接近，因此可以认为该共射极放大器在约 $100~\mathrm{Hz}$ 的测试条件下具有约 35 倍的电压增益，即约 $31~\mathrm{dB}$ 的中频增益。这一结果说明该电路已经实现了明显的电压放大功能，达到了本实验研究共射放大器增益特性的目的。
 
-从实验波形还可以观察到输出信号与输入信号反相，这与共射极放大器的理论特性一致。结合频率响应测试结果，可以进一步说明该放大器只会在一定频率范围内保持较稳定的增益，而在过低或过高频率下，耦合电容、旁路电容以及晶体管本身频率特性都会使增益下降。因此，Section 3 不仅验证了共射极放大器能够实现反相放大，也说明了实际放大电路的性能与频率密切相关。
+从 Bode Analyzer 结果可读出，在约 $100~\mathrm{Hz}$ 时的增益约为 $16.15~\mathrm{dB}$。按小信号模型估算，该电路在 $100~\mathrm{Hz}$ 附近的理论增益约为 $34.2~\mathrm{dB}$，与示波器结果较接近，但与 Bode Analyzer 结果差别较大。这种偏差很可能与 Bode 测试时激励幅值过大、测点选择或仪器设置有关。总体来看，共射极放大器确实实现了明显的电压放大，且输出与输入反相。
+
+\subsection{Section 4: Emitter Follower Amplifier}
+
+\subsubsection{Waveform Observation}
+在加入交流输入信号后，输入与输出波形基本同相，输出幅值略小于输入，说明该电路表现出了典型的射极跟随器特性。也就是说，该电路的电压增益接近 1，但能够较好地跟随输入变化，因此适合作为缓冲级使用。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{Section4_Emitter_Follower_Waveform.png}
+\caption{Section 4 射极跟随器输入与输出波形}
+\label{fig:sec4wave}
+\end{figure}
+
+\subsubsection{Current Gain}
+\begin{table}[H]
+\centering
+\caption{Section 4 不同 $R_E$ 下的电流增益}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Resistance of $R_E$ & Probe 1 -- Input Current & Probe 2 -- Output Current & Gain \\
+\hline
+$1~\mathrm{k}\Omega$ & $58.689~\mu\mathrm{A}$ & $987.82~\mu\mathrm{A}$ & 16.83 \\
+\hline
+$2~\mathrm{k}\Omega$ & $34.224~\mu\mathrm{A}$ & $986.60~\mu\mathrm{A}$ & 28.83 \\
+\hline
+$3~\mathrm{k}\Omega$ & $26.035~\mu\mathrm{A}$ & $985.86~\mu\mathrm{A}$ & 37.87 \\
+\hline
+$5~\mathrm{k}\Omega$ & $19.385~\mu\mathrm{A}$ & $977.07~\mu\mathrm{A}$ & 50.40 \\
+\hline
+\end{tabular}
+\end{table}
+
+由 Table 4 可见，在不同 $R_E$ 条件下，输出电流始终保持在约 $0.98~\mathrm{mA}$，而输入电流仅为几十微安，因此电路具有明显的电流增益。随着 $R_E$ 增大，输入电流减小，电流增益也更高。这与射极跟随器适合作为电流缓冲级的特点一致。
+
+\subsection{Section 5: Comprehensive Design Task}
+Section 5 的综合设计任务将前面几个部分中的放大、耦合、偏置以及开关控制电路组合在同一个电路中。由电路图可以看出，该设计包含前级小信号放大、级间耦合以及后级驱动与指示部分，因此评价重点不再只是单独观察某一级的增益，而是验证整个系统在“未触发”和“触发”两种状态下是否能够表现出明显不同的输出特征，并且在实际搭建后保持稳定工作。
+
+\subsubsection{Circuit Behaviour}
+该综合电路的核心在于利用前级放大后的交流信号去控制后级导通状态，从而使输出端在不同工作条件下表现出明显不同的响应。在未工作状态下，后级不能被有效驱动，因此输出端仅保持极低电平；而当输入信号经过前级放大并成功耦合到后续部分后，后级晶体管导通，输出端便会出现明显的交流响应，同时负载支路也会表现出对应的工作状态变化。也就是说，这一部分的重点在于验证前面各单元电路在综合连接后是否仍然能够协同实现信号传递、放大和驱动功能。
+
+\begin{figure}[H]
+\centering
+\begin{minipage}{0.47\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Section5_Design_Task_Off.jpg}
+\caption{Section 5 实际电路图（未工作状态）}
+\label{fig:sec5offcircuit}
+\end{minipage}
+\hfill
+\begin{minipage}{0.47\textwidth}
+\centering
+\includegraphics[width=\textwidth]{Section5_Design_Task_On.jpg}
+\caption{Section 5 实际电路图（工作状态）}
+\label{fig:sec5oncircuit}
+\end{minipage}
+\end{figure}
+
+\subsubsection{Measured Output States}
+为了进一步比较两种状态下的输出表现，还利用示波器和数字万用表记录了对应波形。未工作状态下的输出结果如 Fig.~7 所示，此时示波器上几乎没有明显的交流输出，仅表现为接近零的小幅平直信号，数字万用表读数约为 $2.422~\mathrm{mV}$。这说明在未触发条件下，输入信号并没有有效传递到最终输出端，后级基本处于截止或未驱动状态。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{Section5_Characteristics_Waveform_Task_Off.jpg}
+\caption{Section 5.1 综合设计任务在未工作状态下的输出}
+\label{fig:sec5off}
+\end{figure}
+
+当电路进入工作状态后，输出结果如 Fig.~8 所示。此时示波器上能够观察到明显的正弦波输出，说明前级信号经过放大和耦合之后已经成功传递到输出端；同时数字万用表读数约为 $1.8853~\mathrm{V}$，相比未工作状态下的毫伏级输出有了显著提高。由此可以判断，综合电路在工作状态下已经能够产生足够的驱动效果，使后级开关和负载响应明显区别于未工作状态。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{Section5_Characteristics_Waveform_Task_On.jpg}
+\caption{Section 5.2 综合设计任务在工作状态下的输出}
+\label{fig:sec5on}
+\end{figure}
+
+综合 Fig.~7 和 Fig.~8 可见，该设计在两种状态下的输出差异非常明显：未工作状态时输出接近零，工作状态时则出现清晰的交流信号并伴随较高的输出电压水平。这说明前面各部分中建立的共射极放大、射极跟随以及开关驱动思路能够在综合电路中协同工作，实现由小信号输入到最终负载响应的完整功能链路。虽然实验中仍可能受到面包板接触、电源纹波、元件参数偏差以及布线较长所引入寄生效应的影响，但从输出波形变化以及输出电压水平来看，该综合设计任务总体上达到了预期目标。
+
+\section{Conclusion}
+本实验围绕双极型晶体管的基本工作特性、开关应用以及放大电路应用展开，较系统地验证了 BJT 在不同偏置条件下的典型行为。Section 1 通过输出特性测量说明了集电极电流会随基极驱动变化而变化，并在一定集电极电压范围内表现出有源区特征；Section 2 进一步验证了晶体管作为开关器件时的截止与饱和状态，说明其既能够作为模拟放大器件，也能够作为数字开关器件使用。
+
+在放大器部分，Section 3 的共射极电路证明了合理的分压偏置和射极电阻可以建立稳定的静态工作点。实验中测得的射极电流与理论计算值较接近，且利用 $I_B$ 的计算值和 $I_E$ 的测量值可估算得到 $\beta \approx 97.49$，与标称值 100 接近，说明该偏置分析具有较好的合理性。交流测试结果表明，共射极放大器具有明显的电压增益且输出反相，频率响应也显示该电路只在一定频率范围内保持较稳定的放大效果。
+
+Section 4 的射极跟随器实验则表明，该电路虽然电压增益接近 1，但输入输出同相，且具有明显的电流增益，因此适合作为缓冲级和阻抗匹配级使用。Section 5 的综合设计任务进一步说明，前级放大、级间耦合和后级驱动能够在同一个系统中协同工作，使电路在不同工作状态下表现出明显不同的输出响应。总体而言，本实验所得结果与 BJT 的理论模型基本一致。虽然实验中仍受到元件参数分散、面包板接触情况和仪器分辨率等因素影响，但主要现象清晰，能够支持对晶体管放大与开关特性的分析和理解。
 
 \end{document}
