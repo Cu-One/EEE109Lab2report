@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  18 MAY 2026 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.12)  18 MAY 2026 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -644,78 +644,87 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 41.
 
 [1]
-<Section1_Circuit_Diagram.png, id=141, 385.87018pt x 164.75839pt>
+Overfull \hbox (7.36613pt too wide) in paragraph at lines 49--50
+[]\C70/rm/m/n/10.53937/67 , \C70/rm/m/n/10.53937/62 ¥ \C70/rm/m/n/10.53937/54 J
+ \C70/rm/m/n/10.53937/99 – \C70/rm/m/n/10.53937/51 H \C70/rm/m/n/10.53937/4e å 
+\OT1/cmr/m/n/10.53937 Ab-stract \C70/rm/m/n/10.53937/69 ‚ \C70/rm/m/n/10.53937/
+8f ð \C70/rm/m/n/10.53937/5b ž \C70/rm/m/n/10.53937/9a Œ \C70/rm/m/n/10.53937/7
+6 î „|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/65 ¹ \C70/rm/m/n/10.539
+37/6c Õ|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/7e Ó \C70/rm/m/n/10.5
+3937/67 œ \C70/rm/m/n/10.53937/54 Œ \C70/rm/m/n/10.53937/7e Ó \C70/rm/m/n/10.53
+937/8b º|\C70/rm/m/n/10.53937/30 ^^B| \OT1/cmr/m/n/10.53937 Introduction
+ []
+
+<Section1_Circuit_Diagram.png, id=140, 385.87018pt x 164.75839pt>
 File: Section1_Circuit_Diagram.png Graphic file (type png)
 <use Section1_Circuit_Diagram.png>
 Package pdftex.def Info: Section1_Circuit_Diagram.png  used on input line 60.
 (pdftex.def)             Requested size: 172.5pt x 73.65538pt.
- [2]
-<Section1_BJT_Characteristics.jpg, id=153, 1284.8pt x 1713.40125pt>
+[2 <./Section1_Circuit_Diagram.png>]
+<Section1_BJT_Characteristics.jpg, id=150, 1284.8pt x 1713.40125pt>
 File: Section1_BJT_Characteristics.jpg Graphic file (type jpg)
 <use Section1_BJT_Characteristics.jpg>
 Package pdftex.def Info: Section1_BJT_Characteristics.jpg  used on input line 7
 4.
 (pdftex.def)             Requested size: 144.89937pt x 193.23299pt.
- [3 <./Section1_Circuit_Diagram.png>]
-<Section2_Circuit_Diagram.png, id=158, 166.04893pt x 199.17268pt>
+<Section2_Circuit_Diagram.png, id=151, 166.04893pt x 199.17268pt>
 File: Section2_Circuit_Diagram.png Graphic file (type png)
 <use Section2_Circuit_Diagram.png>
 Package pdftex.def Info: Section2_Circuit_Diagram.png  used on input line 81.
 (pdftex.def)             Requested size: 131.10168pt x 157.25351pt.
-<Section3_Circuit_Diagram.png, id=159, 334.24875pt x 176.80339pt>
+ [3 <./Section1_BJT_Characteristics.jpg>]
+<Section3_Circuit_Diagram.png, id=157, 334.24875pt x 176.80339pt>
 File: Section3_Circuit_Diagram.png Graphic file (type png)
 <use Section3_Circuit_Diagram.png>
 Package pdftex.def Info: Section3_Circuit_Diagram.png  used on input line 90.
 (pdftex.def)             Requested size: 172.5pt x 91.24765pt.
- [4 <./Section1_BJT_Characteristics.jpg> <./Section2_Circuit_Diagram.png>]
-<Section3_Common_Emitter_Amplifier.jpg, id=165, 1284.8pt x 1713.40125pt>
+
+[4 <./Section2_Circuit_Diagram.png> <./Section3_Circuit_Diagram.png>]
+<Section3_Common_Emitter_Amplifier.jpg, id=163, 1284.8pt x 1713.40125pt>
 File: Section3_Common_Emitter_Amplifier.jpg Graphic file (type jpg)
 <use Section3_Common_Emitter_Amplifier.jpg>
 Package pdftex.def Info: Section3_Common_Emitter_Amplifier.jpg  used on input l
 ine 104.
 (pdftex.def)             Requested size: 172.5pt x 230.04425pt.
- [5 <./Section3_Circuit_Diagram.png>]
-<Section4_Emitter_Follower_Diagram.png, id=171, 453.8384pt x 319.1925pt>
+ [5 <./Section3_Common_Emitter_Amplifier.jpg>]
+<Section4_Emitter_Follower_Diagram.png, id=170, 453.8384pt x 319.1925pt>
 File: Section4_Emitter_Follower_Diagram.png Graphic file (type png)
 <use Section4_Emitter_Follower_Diagram.png>
 Package pdftex.def Info: Section4_Emitter_Follower_Diagram.png  used on input l
 ine 117.
 (pdftex.def)             Requested size: 155.24895pt x 109.19125pt.
-
-[6 <./Section3_Common_Emitter_Amplifier.jpg>]
-<Section5_Circuit_Diagram.jpg, id=177, 2051.665pt x 1078.0275pt>
+<Section5_Circuit_Diagram.jpg, id=171, 2051.665pt x 1078.0275pt>
 File: Section5_Circuit_Diagram.jpg Graphic file (type jpg)
 <use Section5_Circuit_Diagram.jpg>
 Package pdftex.def Info: Section5_Circuit_Diagram.jpg  used on input line 130.
 (pdftex.def)             Requested size: 269.09958pt x 141.38219pt.
-<Section1_1_Characteristics_Waveform.jpg, id=178, 1713.40125pt x 1284.8pt>
+ [6 <./Section4_Emitter_Follower_Diagram.png> <./Section5_Circuit_Diagram.jpg>]
+<Section1_1_Characteristics_Waveform.jpg, id=176, 1713.40125pt x 1284.8pt>
 File: Section1_1_Characteristics_Waveform.jpg Graphic file (type jpg)
 <use Section1_1_Characteristics_Waveform.jpg>
 Package pdftex.def Info: Section1_1_Characteristics_Waveform.jpg  used on input
  line 142.
-(pdftex.def)             Requested size: 269.09958pt x 201.76894pt.
- [7 <./Section4_Emitter_Follower_Diagram.png> <./Section5_Circuit_Diagram.jpg>]
-
-Overfull \hbox (79.71585pt too wide) in paragraph at lines 154--173
- [][] 
- []
-
-[8 <./Section1_1_Characteristics_Waveform.jpg>] [9]
-<Section2_1_Characteristics_Waveform.jpg, id=193, 1713.40125pt x 1284.8pt>
+(pdftex.def)             Requested size: 248.40042pt x 186.26183pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 175.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 175.
+ [7 <./Section1_1_Characteristics_Waveform.jpg>] [8]
+<Section2_1_Characteristics_Waveform.jpg, id=191, 1713.40125pt x 1284.8pt>
 File: Section2_1_Characteristics_Waveform.jpg Graphic file (type jpg)
 <use Section2_1_Characteristics_Waveform.jpg>
 Package pdftex.def Info: Section2_1_Characteristics_Waveform.jpg  used on input
- line 249.
-(pdftex.def)             Requested size: 269.09958pt x 201.76894pt.
- [10]
-<Section2_2_Characteristics_Waveform.jpg, id=198, 1713.40125pt x 1284.8pt>
+ line 253.
+(pdftex.def)             Requested size: 248.40042pt x 186.26183pt.
+ [9 <./Section2_1_Characteristics_Waveform.jpg>]
+<Section2_2_Characteristics_Waveform.jpg, id=195, 1713.40125pt x 1284.8pt>
 File: Section2_2_Characteristics_Waveform.jpg Graphic file (type jpg)
 <use Section2_2_Characteristics_Waveform.jpg>
 Package pdftex.def Info: Section2_2_Characteristics_Waveform.jpg  used on input
- line 287.
-(pdftex.def)             Requested size: 234.59747pt x 175.91068pt.
- [11 <./Section2_1_Characteristics_Waveform.jpg>]
-Overfull \hbox (5.69164pt too wide) in paragraph at lines 292--293
+ line 291.
+(pdftex.def)             Requested size: 213.89832pt x 160.38396pt.
+
+Overfull \hbox (5.69164pt too wide) in paragraph at lines 296--297
 []\C70/rm/m/n/10.53937/68 9 \C70/rm/m/n/10.53937/63 n \C70/rm/m/n/10.53937/79 :
  \C70/rm/m/n/10.53937/6c â \C70/rm/m/n/10.53937/56 h \C70/rm/m/n/10.53937/65 p 
 \C70/rm/m/n/10.53937/63 n|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/8f 
@@ -728,43 +737,44 @@ e : $\OT1/cmr/m/n/10.53937 7\OML/cmm/m/it/10.53937 :\OT1/cmr/m/n/10.53937 135 V
 $|\C70/rm/m/n/10.53937/ff ^^L|
  []
 
-<Section4_Emitter_Follower_Waveform.png, id=204, 649.56964pt x 443.08392pt>
+[10 <./Section2_2_Characteristics_Waveform.jpg>]
+<Section4_Emitter_Follower_Waveform.png, id=201, 649.56964pt x 443.08392pt>
 File: Section4_Emitter_Follower_Waveform.png Graphic file (type png)
 <use Section4_Emitter_Follower_Waveform.png>
 Package pdftex.def Info: Section4_Emitter_Follower_Waveform.png  used on input 
-line 310.
-(pdftex.def)             Requested size: 282.90253pt x 192.96982pt.
-[12 <./Section2_2_Characteristics_Waveform.jpg>]
-Overfull \hbox (41.11218pt too wide) in paragraph at lines 319--332
+line 314.
+(pdftex.def)             Requested size: 255.3019pt x 174.14745pt.
+
+Overfull \hbox (41.11218pt too wide) in paragraph at lines 323--336
  [][] 
  []
 
-[13 <./Section4_Emitter_Follower_Waveform.png>]
-<Section5_Design_Task_Off.jpg, id=214, 1284.8pt x 1713.40125pt>
+[11 <./Section4_Emitter_Follower_Waveform.png>]
+<Section5_Design_Task_Off.jpg, id=206, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_Off.jpg Graphic file (type jpg)
 <use Section5_Design_Task_Off.jpg>
-Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 346.
-(pdftex.def)             Requested size: 162.15042pt x 216.24004pt.
-<Section5_Design_Task_On.jpg, id=215, 1284.8pt x 1713.40125pt>
+Package pdftex.def Info: Section5_Design_Task_Off.jpg  used on input line 350.
+(pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
+<Section5_Design_Task_On.jpg, id=207, 1284.8pt x 1713.40125pt>
 File: Section5_Design_Task_On.jpg Graphic file (type jpg)
 <use Section5_Design_Task_On.jpg>
-Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 353.
-(pdftex.def)             Requested size: 162.15042pt x 216.24004pt.
- [14 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg>]
-<Section5_Characteristics_Waveform_Task_Off.jpg, id=220, 1927.2pt x 1084.05pt>
+Package pdftex.def Info: Section5_Design_Task_On.jpg  used on input line 356.
+(pdftex.def)             Requested size: 155.24895pt x 207.03722pt.
+<Section5_Characteristics_Waveform_Task_Off.jpg, id=208, 1927.2pt x 1084.05pt>
 File: Section5_Characteristics_Waveform_Task_Off.jpg Graphic file (type jpg)
 <use Section5_Characteristics_Waveform_Task_Off.jpg>
 Package pdftex.def Info: Section5_Characteristics_Waveform_Task_Off.jpg  used o
-n input line 364.
-(pdftex.def)             Requested size: 303.60168pt x 170.77185pt.
-<Section5_Characteristics_Waveform_Task_On.jpg, id=221, 1927.2pt x 1084.05pt>
+n input line 367.
+(pdftex.def)             Requested size: 276.00105pt x 155.23962pt.
+<Section5_Characteristics_Waveform_Task_On.jpg, id=209, 1927.2pt x 1084.05pt>
 File: Section5_Characteristics_Waveform_Task_On.jpg Graphic file (type jpg)
 <use Section5_Characteristics_Waveform_Task_On.jpg>
 Package pdftex.def Info: Section5_Characteristics_Waveform_Task_On.jpg  used on
- input line 373.
-(pdftex.def)             Requested size: 303.60168pt x 170.77185pt.
- [15 <./Section5_Characteristics_Waveform_Task_Off.jpg>] [16 <./Section5_Charac
-teristics_Waveform_Task_On.jpg>] [17]
+ input line 376.
+(pdftex.def)             Requested size: 276.00105pt x 155.23962pt.
+ [12] [13 <./Section5_Design_Task_Off.jpg> <./Section5_Design_Task_On.jpg> <./S
+ection5_Characteristics_Waveform_Task_Off.jpg>] [14 <./Section5_Characteristics
+_Waveform_Task_On.jpg>]
 (main.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -772,13 +782,13 @@ L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6609 strings out of 467871
- 135163 string characters out of 5418376
- 602742 words of memory out of 5000000
- 35203 multiletter control sequences out of 15000+600000
- 669312 words of font info for 189 fonts, out of 8000000 for 9000
+ 6574 strings out of 467871
+ 134492 string characters out of 5418376
+ 605742 words of memory out of 5000000
+ 35169 multiletter control sequences out of 15000+600000
+ 670026 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,10n,92p,879b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,11n,92p,879b,357s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/s
 imsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows
 /Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:
@@ -804,26 +814,27 @@ Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.
 ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts
 /simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windo
 ws/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><
-C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/sims
-un.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fo
-nts/simhei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Users/jiang/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jiang/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jiang/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/User
+C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simsun.ttc><C:/Windows/Fonts/simh
+ei.ttf><C:/Windows/Fonts/simhei.ttf><C:/Users/jiang/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/jiang/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jiang/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jiang/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/User
 s/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
 <C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr9.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/jiang/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jiang/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><C:/Users/jian
-g/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb
->
-Output written on main.pdf (18 pages, 3623811 bytes).
+mi9.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/jiang/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/jiang/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/jiang/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jiang/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><C:/Us
+ers/jiang/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/latxfont/li
+ne10.pfb>
+Output written on main.pdf (15 pages, 3617190 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
+ 494 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
